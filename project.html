@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADD MY PROJECT</title>
+    <link rel="stylesheet" href="/assets/css/project.css">
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav>
+        <div class="navbar">
+            <ul>
+                <img src="/assets/img/logo.png" alt="logo">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">My Project</a></li>
+            </ul>
+
+        </div>
+        <div class="contactnav">
+            <a href="contact.html">Contact Me</a>
+        </div>
+        <div class="hamburger-toogle" id="toogle-menu">
+            <span id="span1"></span>
+            <span id="span2"></span>
+            <span id="span3"></span>
+        </div>
+
+    </nav>
+    <div class="humberger-nav" id="menu">
+        <a href="index.html">Home</a>
+        <a href="project.html">My Project</a>
+        <a href="contact.html">Contact Me</a>
+        <a href="testimonial.html">Testimonial</a>
+    </div>
+
+    <!-- contactform -->
+
+    <h2 class="getIn"> ADD MY PROJECT </h2>
+    <form onsubmit="getData(event)">
+        <div class="formPosition">
+            <div>
+                <label for="project">Project Name</label>
+                <input type="text" id="project">
+            </div>
+
+            <div class="dates">
+                <div class="startD">
+                    <label>
+                        Start Date
+                        <input type="date" name="startDate" id="startDate">
+                    </label>
+                </div>
+
+                <div class="endD">
+                    <label>
+                        End Date
+                        <input id="endDate" type="date" name="endDate">
+                    </label>
+                </div>
+
+            </div>
+
+            <div class="description">
+                <label>
+                    Description
+                    <textarea name="desc" id="desc"></textarea>
+                </label>
+            </div>
+
+            <!-- technologies -->
+            <label for="technologies" class="ltech">Technologies</label>
+            <div class="tech">
+                <div class="techup">
+                    <label>
+                        <input type="checkbox" name="reactJS" id="icon1">
+                        ReactJs
+                    </label>
+
+
+                    <label>
+                        <input type="checkbox" name="html" id="icon2">
+                        HTML
+                    </label>
+
+
+                    <label>
+                        <input type="checkbox" name="css" id="icon3">
+                        CSS
+                    </label>
+                </div>
+
+                <div class="techbot">
+                    <label>
+                        <input type="checkbox" name="python" id="icon4">
+                        Python
+                    </label>
+
+                    <label>
+                        <input type="checkbox" name="golang" id="icon5">
+                        Golang
+                    </label>
+
+                    <label>
+                        <input type="checkbox" name="laravel" id="icon6">
+                        Laravel
+                    </label>
+
+                </div>
+            </div>
+
+            <div class="containerfile">
+                <label>Upload Image</label>
+                <input type="file" name="upload" id="image">
+                <label for="image" class="image">
+                    <i class="fas fa-upload"></i> &nbsp;
+                    Choose A Photo
+                </label>
+            </div>
+
+            <div class="button-project">
+                <button type="submit">Submit</button>
+            </div>
+        </div>
+    </form>
+
+
+
+    <div class="container-card" style="background-color: white;">
+
+        <h1>My Project</h1>
+
+
+        <div class="card-project" id="contain1">
+            <div class="content">
+                <img src="/assets/img/phone.jpg" alt="image">
+                <a href="detail.html" target="_blank">
+                    <h3>Dumbways Mobile App - 2021</h3>
+                </a>
+                <span>
+                    <p>Duration : 3 month</p>
+                </span>
+                <div class="text">
+                    <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
+                        printer took a galley of type and scrambled it to make a type specimen book.</p>
+                </div>
+
+                <!-- technologies -->
+                <div class="tech">
+                    <i class="fa-brands fa-golang"></i>
+                    <i class="fa-brands fa-python"></i>
+                    <i class="fa-brands fa-react"></i>
+                </div>
+                <!-- end-technologies -->
+                <div class="btngr">
+                    <button class="btn1">Edit</button>
+                    <button class="btn2">Delete</button>
+
+                </div>
+            </div>
+            <div class="content">
+                <img src="/assets/img/phone.jpg" alt="image">
+                <a href="detail.html" target="_blank">
+                    <h3>Dumbways Mobile App - 2021</h3>
+                </a>
+                <span>
+                    <p>Duration : 3 month</p>
+                </span>
+                <div class="text">
+                    <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
+                        printer took a galley of type and scrambled it to make a type specimen book.</p>
+                </div>
+
+
+                <div class="tech">
+                    <i class="fa-brands fa-js"></i>
+                    <i class="fa-brands fa-html5"></i>
+                    <i class="fa-brands fa-css3"></i>
+                </div>
+
+                <div class="btngr">
+                    <button class="btn1">Edit</button>
+                    <button class="btn2">Delete</button>
+
+                </div>
+            </div>
+            <div class="content">
+                <img src="/assets/img/phone.jpg" alt="image">
+                <a href="">
+                    <h3>Dumbways Mobile App - 2021</h3>
+                </a>
+                <span>
+                    <p>Duration : 3 month</p>
+                </span>
+                <div class="text">
+                    <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
+                        printer took a galley of type and scrambled it to make a type specimen book.</p>
+                </div>
+
+                <!-- technologies -->
+                <div class="tech">
+                    <i class="fa-brands fa-golang"></i>
+                    <i class="fa-brands fa-laravel"></i>
+                    <i class="fa-brands fa-html5"></i>
+                </div>
+                <!-- end-technologies -->
+                <div class="btngr">
+                    <button class="btn1">Edit</button>
+                    <button class="btn2">Delete</button>
+
+                </div>
+            </div>
+            <div class="card-project">
+                <div class="content">
+                    <img src="/assets/img/phone.jpg" alt="image">
+                    <a href="">
+                        <h3>Dumbways Mobile App - 2021</h3>
+                    </a>
+                    <span>
+                        <p>Duration : 3 month</p>
+                    </span>
+                    <div class="text">
+                        <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
+                            printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    </div>
+
+                    <!-- technologies -->
+                    <div class="tech">
+                        <i class="fa-brands fa-golang"></i>
+                        <i class="fa-brands fa-python"></i>
+                        <i class="fa-brands fa-react"></i>
+                    </div>
+                    <!-- end-technologies -->
+                    <div class="btngr">
+                        <button class="btn1">Edit</button>
+                        <button class="btn2">Delete</button>
+
+                    </div>
+                </div>
+                <div class="content">
+                    <img src="/assets/img/phone.jpg" alt="image">
+                    <a href="">
+                        <h3>Dumbways Mobile App - 2021</h3>
+                    </a>
+                    <span>
+                        <p>Duration : 3 month</p>
+                    </span>
+                    <div class="text">
+                        <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
+                            printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    </div>
+
+                    <!-- technologies -->
+                    <div class="tech">
+                        <i class="fa-brands fa-js"></i>
+                        <i class="fa-brands fa-html5"></i>
+                        <i class="fa-brands fa-css3"></i>
+                    </div>
+                    <!-- end-technologies -->
+                    <div class="btngr">
+                        <button class="btn1">Edit</button>
+                        <button class="btn2">Delete</button>
+
+                    </div>
+                </div>
+                <div class="content">
+                    <img src="/assets/img/phone.jpg" alt="image">
+                    <a href="">
+                        <h3>Dumbways Mobile App - 2021</h3>
+                    </a>
+                    <span>
+                        <p>Duration : 3 month</p>
+                    </span>
+                    <div class="text">
+                        <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
+                            printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    </div>
+
+                    <!-- technologies -->
+                    <div class="tech">
+                        <i class="fa-brands fa-golang"></i>
+                        <i class="fa-brands fa-laravel"></i>
+                        <i class="fa-brands fa-html5"></i>
+                    </div>
+                    <!-- end-technologies -->
+                    <div class="btngr">
+                        <button class="btn1">Edit</button>
+                        <button class="btn2">Delete</button>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src=" https://kit.fontawesome.com/2247fa0dca.js" crossorigin="anonymous">
+    </script>
+    <script src="/assets/js/app.js"></script>
+
+
+</body>
+
+</html>

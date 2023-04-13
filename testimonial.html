@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <title>TASK 9</title>
+</head>
+
+<body>
+    <nav>
+        <div class="navbar">
+            <ul>
+                <img src="/assets/img/logo.png" alt="logo">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="project.html">My Project</a></li>
+                <li><a href="testimonial.html">Testimonial</a></li>
+
+            </ul>
+
+
+        </div>
+        <div class="contactnav">
+            <a href="contact.html">Contact Me</a>
+        </div>
+        <div class="hamburger-toogle" id="toogle-menu">
+            <span id="span1"></span>
+            <span id="span2"></span>
+            <span id="span3"></span>
+        </div>
+
+
+    </nav>
+    <div class="humberger-nav" id="menu">
+        <a href="index.html">Home</a>
+        <a href="project.html">My Project</a>
+        <a href="contact-me.html">Contact Me</a>
+        <a href="testimonial.html">Testimonial</a>
+    </div>
+
+
+    <div class="container">
+        <h1>My Testimonials</h1>
+        <div class="container-rating">
+            <h2> Rating By Star</h2>
+            <div class="rating">
+                <button class="rating-btn" onclick="showTestimonial()">
+                    All
+                </button>
+                <button class="rating-btn" onclick="filterData(1)">
+                    1 <i class="fa-solid fa-star"></i>
+                </button>
+                <button class="rating-btn" onclick="filterData(2)">
+                    2 <i class="fa-solid fa-star"></i>
+                </button>
+                <button class="rating-btn" onclick="filterData(3)">
+                    3 <i class="fa-solid fa-star"></i>
+                </button>
+                <button class="rating-btn" onclick="filterData(4)">
+                    4 <i class="fa-solid fa-star"></i>
+                </button>
+                <button class="rating-btn" onclick="filterData(5)">
+                    5 <i class="fa-solid fa-star"></i>
+                </button>
+            </div>
+        </div>
+
+        <section class="testimonials" id="cardTesti">
+            <!-- 
+                <div class="testicard">
+                    <!-- <img src="" alt="" class="profile-testi">
+                        <p class="qoute-testi"></p>
+                        <p class="author"></p>
+                </div> -->
+        </section>
+    </div>
+
+
+
+    </section>
+
+
+    <!-- fontawesome -->
+    <script src=" https://kit.fontawesome.com/2247fa0dca.js" crossorigin="anonymous">
+    </script>
+    <!-- end fontawesome -->
+    <!-- start jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"
+        integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+    <!-- end jQuery -->
+    <!-- start main js file -->
+
+    <!-- <script src="/assets/js/ajax.js"></script> -->
+
+    <!-- end main js file -->
+
+    <!-- start cobaAjax(onreadystatechange & jquery) -->
+    <script src="/assets/js/coba.js"></script>
+    <!-- end cobaAjax(onreadystatechange & jquery) -->
+</body>
+
+</html>

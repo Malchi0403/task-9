@@ -1,0 +1,88 @@
+/* RESPONSIVE BREAKPOINT */
+
+
+nav {
+    padding: 0;
+}
+
+.navbar ul li {
+    display: none;
+}
+
+.navbar img {
+    width: 40px;
+    margin-left: -10px;
+}
+
+.contactnav a {
+    display: none;
+}
+
+
+/* hamburger menu */
+
+.hamburger-toogle {
+    display: flex;
+}
+
+
+/* PAGE */
+
+.page {
+    flex-direction: column;
+    margin: 30px 45px;
+}
+
+.text1 {
+    margin: 10px 30px;
+    padding: 0 15px;
+}
+
+.text1 h1 {
+    text-align: center;
+    font-size: 24px;
+}
+
+.contacttext {
+    margin: 12px;
+
+}
+
+.contacttext1 {
+    margin-right: 35px;
+    padding: 8px 20px;
+}
+
+/* icon */
+
+.icons {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+
+}
+
+.icons span {
+    margin-right: 10px;
+}
+
+/* img */
+.gambar {
+    display: flex;
+    flex-direction: column;
+    margin: 0 90px 20px;
+}
+
+.img2 {
+    width: 100%;
+}
+
+.formPosition {
+    width: 280px;
+    margin: 50px auto;
+    height: 520px;
+}
+
+.getIn {
+    font-size: 26px;
+}

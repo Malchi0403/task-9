@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" media="screen and (max-width: 550px)" href="smallscreen.css">
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav>
+        <div class="navbar">
+            <ul>
+                <img src="/assets/img/logo.png" alt="logo">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="project.html">My Project</a></li>
+            </ul>
+
+        </div>
+        <div class="contactnav">
+            <a href="">Contact Me</a>
+        </div>
+        <div class="hamburger-toogle" id="toogle-menu">
+            <span id="span1"></span>
+            <span id="span2"></span>
+            <span id="span3"></span>
+        </div>
+
+    </nav>
+    <div class="humberger-nav" id="menu">
+        <a href="index.html">Home</a>
+        <a href="project.html">My Project</a>
+        <a href="contact.html">Contact Me</a>
+        <a href="testimonial.html">Testimonial</a>
+    </div>
+
+    <!-- contactform -->
+
+    <h2 class="getIn"> GET IN TOUCH </h2>
+    <form class="formPosition">
+        <div>
+            <label for="name">Name</label>
+            <input type="text" id="name">
+        </div>
+
+        <div>
+            <label for="email">Email</label>
+            <input type="text" id="email">
+        </div>
+
+        <div>
+            <label for="phone">Phone Number</label>
+            <input type="text" id="phone">
+        </div>
+
+        <div>
+            <label for="subject">Subject</label>
+            <select id="subject" class="customselect">
+                <option selected hidden></option>
+                <option>Let's Talk</option>
+                <option>Let's Collaboration</option>
+                <option>I am Hiring</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="message">Your Message</label>
+            <textarea id="message"></textarea>
+        </div>
+
+        <div>
+            <button type="button" onclick="takeData()">Submit</button>
+        </div>
+    </form>
+
+    <script src="/assets/js/app.js"></script>
+
+</body>
+
+</html>
